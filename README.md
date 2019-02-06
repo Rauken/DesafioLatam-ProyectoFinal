@@ -1,7 +1,7 @@
 # DesafioLatam-ProyectoFinal
 Proyecto final del curso de desarrollo FrontEnd en Valparaiso
 
-# Colores
+## Colores
 
 - ![#FFCC29](https://placehold.it/15/FFCC29/000000?text=+) `#FFCC29`
 - ![#00A859](https://placehold.it/15/00A859/000000?text=+) `#00A859`
