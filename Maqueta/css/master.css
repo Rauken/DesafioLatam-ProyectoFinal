@@ -14,11 +14,36 @@
     color: #EC268F;
 }
 
+@font-face {
+    font-family: TinDog;
+    src: url('../font/TinDog.ttf');
+}
+
+@font-face {
+    font-family: TinDogIt;
+    src: url('../font/TinDogIt.ttf');
+}
+
 
 /*---------------------Etiquetas------------------*/
 
+body {
+    background: url("../img/background/wall01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    font-family: TinDog;
+}
+
 
 /*---------------------Clases---------------------*/
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 9px -6px rgba(0, 168, 89, 1);
+    -moz-box-shadow: 10px 10px 9px -6px rgba(0, 168, 89, 1);
+    box-shadow: 10px 10px 9px -6px rgba(0, 168, 89, 1);
+}
 
 
 /*---------------------Nombres--------------------*/
