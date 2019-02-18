@@ -12,6 +12,24 @@ Proyecto final del curso de desarrollo FrontEnd en Valparaiso
 - user: paolo
 - pass: wYDx7)@kh*yIYnZ#4M
 
+## Plugins Wordpress
+
+-Advanced Custom Fields
+Customize WordPress with powerful, professional and intuitive fields.
+
+Versión 5.7.12 | Por Elliot Condon
+
+-Advanced Custom Fields: Theme Code
+Generates theme code for ACF field groups to speed up development.
+Versión 1.4.0 | Por hookturn
+
+## Plugins jQuery
+
+-AnimateScroll is a jQuery plugin which enables you to scroll to any part of the page in style by just calling the animatescroll() function with the Id or Classname of the element where you want to scroll to
+
+-
+-
+
 ## Colores
 
 - ![#FFCC29](https://placehold.it/15/FFCC29/000000?text=+) `#FFCC29`
