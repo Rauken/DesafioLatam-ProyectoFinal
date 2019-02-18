@@ -30,6 +30,10 @@ Versión 1.4.0 | Por hookturn
 -
 -
 
+## Api
+
+-Google Maps
+
 ## Colores
 
 - ![#FFCC29](https://placehold.it/15/FFCC29/000000?text=+) `#FFCC29`
