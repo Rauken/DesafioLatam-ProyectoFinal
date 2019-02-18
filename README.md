@@ -1,6 +1,17 @@
 # DesafioLatam-ProyectoFinal
 Proyecto final del curso de desarrollo FrontEnd en Valparaiso
 
+## Base de Datos
+
+- base de datos: dl_final
+- user: root
+- pass: root
+
+## Wordpress
+
+- user: paolo
+- pass: wYDx7)@kh*yIYnZ#4M
+
 ## Colores
 
 - ![#FFCC29](https://placehold.it/15/FFCC29/000000?text=+) `#FFCC29`
