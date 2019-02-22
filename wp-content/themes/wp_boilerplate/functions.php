@@ -83,7 +83,7 @@ function register_enqueue_scripts(){
 	wp_enqueue_script('jQuery');
 	wp_enqueue_script('jQuery-min');
 	wp_enqueue_script('animatescroll');
-	wp_enqueue_script('grid-gallery.min');
+	wp_enqueue_script('grid-gallery');
     wp_enqueue_script('Bootstrap');
     wp_enqueue_script('Bootstrap-min');
     wp_enqueue_script('Main');

@@ -52,16 +52,21 @@
             ?>
             
             <div class="col-md-3 secciones mt-50">
-                    
-            <?php $Imagen = get_field( 'Nombre' ); ?>
-            <?php if ( $Nombre ) { ?>
-                <h1><?php echo $Nombre['url']; ?></h1>    
-            <?php } ?>
             <?php $Imagen = get_field( 'imagen' ); ?>
-                <?php if ( $Imagen ) { ?>
-                    <img src="<?php echo $Imagen['url']; ?>" alt="<?php echo $Imagen['alt']; ?>" class="circle image" />
-            <?php } ?>
+            <?php $nombre = get_field( 'nombre' ); ?>
+            <?php $link = get_field( 'link' ); ?>
+
+            <?php if ( $Imagen ) { ?>
+                <img src="<?php echo $Imagen['url']; ?>" alt="<?php echo $Imagen['alt']; ?>" class="circle image" />
+                <div class="middle">
+                    <a href="<?php the_field( 'link' ); ?>">
+                        <div class="text">
+                        <?php the_field( 'nombre' ); ?>
+                        </div>
+                    </a>
+                </div>
                 
+            <?php } ?>        
             </div>
             <?php } wp_reset_postdata();?>
             <div class="col-md-1"></div>
@@ -73,7 +78,7 @@
                 <h1>Galeria</h1>
             </div>
             <div id="gg-screen"></div>
-            <div class="gg-box">
+            <div class="gg-box align-content-center">
                 <?php
                 $arg = array(
                 'category_name'  => 'Galeria',   
