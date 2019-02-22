@@ -50,6 +50,14 @@ p {
 
 /*---------------------Clases---------------------*/
 
+.border-image {
+    border-radius: 8px;
+}
+
+.text-custom {
+    color: #00A859;
+}
+
 .shadow {
     -webkit-box-shadow: 10px 10px 9px -6px rgba(0, 168, 89, 1);
     -moz-box-shadow: 10px 10px 9px -6px rgba(0, 168, 89, 1);
@@ -71,6 +79,11 @@ p {
     padding-bottom: 50px;
 }
 
+.md-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .mt-100 {
     padding-top: 100px;
 }
@@ -86,15 +99,25 @@ p {
     height: auto;
 }
 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+div.seccion:hover {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
 
 /*---------------------Secciones------------------*/
 
 .seccion1 {
-    border-radius: 10%;
-    background: url("../img/background/wall01.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
     background-size: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -106,39 +129,15 @@ h1 {
 }
 
 
-/*---------------------intermedios----------------*/
+/*---------------------Nombre----------------*/
+
+#map {
+    width: 100%;
+    height: 300px;
+}
 
 
 /*---------------------Efectos--------------------*/
-
-
-/*1. -Galeria*/
-
-div.gallery {
-    padding: 1px;
-    margin: 10px;
-    border: 1px solid #FFF212;
-    float: left;
-    width: 180px;
-    border-radius: 10%;
-    opacity: 0.7;
-}
-
-div.gallery:hover {
-    border: 1px solid #FFF212;
-    opacity: 1;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 10%;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
 
 
 /*---------------------Medias Query---------------*/

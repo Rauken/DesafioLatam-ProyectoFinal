@@ -11,7 +11,7 @@
         
 </head>
 
-<body class="text-center">
+<body id="home" class="text-center">
     <!-- Navbar content -->
     <nav class="navbar fixed-top">
         <a href="#home">
@@ -19,13 +19,13 @@
         </a>
         <ul class="nav nav-pills justify-content-end tindog">
             <li class="nav-item p-1">
-                <a class="nav-link active" href="#home">Inicio</a>
+                <a href="#home" class="nav-link active" onclick="$('body').animatescroll();">Inicio</a>
             </li>
             <li class="nav-item p-1">
-                <a class="nav-link" href="#about">Acerca de</a>
+                <a href="#home" class="nav-link active" onclick="$('#about').animatescroll();">Acerca de</a>
             </li>
             <li class="nav-item p-1">
-                <a class="nav-link" href="#productos">Productos</a>
+                <a href="#home" class="nav-link active" onclick="$('#galeria').animatescroll();">Galeria</a>
             </li>
         </ul>
     </nav>

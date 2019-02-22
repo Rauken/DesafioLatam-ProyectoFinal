@@ -19,13 +19,18 @@ function register_enqueue_style(){
 
 	wp_register_style('font-awesome', 
     'https://use.fontawesome.com/releases/v5.7.0/css/all.css', 
+	null, '1.0.0', 'screen');
+	
+	wp_register_style('grid-gallery', 
+    get_parent_theme_file_uri('/assets/css/grid-gallery.min.css'), 
     null, '1.0.0', 'screen');
 
     //Enqueue estilos
     wp_enqueue_style('Bootstrap');
     wp_enqueue_style('Bootstrap-min');
     wp_enqueue_style('Master');
-    wp_enqueue_style('font-awesome');
+	wp_enqueue_style('font-awesome');
+	wp_enqueue_style('grid-gallery');
 }
 add_action('wp_enqueue_scripts', 'register_enqueue_style');
 
@@ -36,7 +41,9 @@ function register_enqueue_scripts(){
     
     //deregister scripts
     wp_deregister_script('jQuery');
-    wp_deregister_script('jQuery-min');
+	wp_deregister_script('jQuery-min');
+	wp_deregister_script('animatescroll');
+	wp_deregister_script('grid-gallery');
     wp_deregister_script('Bootstrap');
     wp_deregister_script('Bootstrap-min');
     wp_deregister_script('Main');
@@ -51,21 +58,32 @@ function register_enqueue_scripts(){
     get_parent_theme_file_uri('/assets/js/jquery-3.3.1.min.js'), 
     null, '3.2.1', true);
 
+	wp_register_script('animatescroll', 
+    get_parent_theme_file_uri('/assets/js/animatescroll.js'), 
+    null, '3.2.1', true);
+
+	wp_register_script('grid-gallery', 
+    get_parent_theme_file_uri('/assets/js/grid-gallery.min.js'), 
+	null, '3.2.1', true);
+	
     wp_register_script('Bootstrap', 
     get_parent_theme_file_uri('/assets/js/bootstrap.js'), 
     null, '3.2.1', true);
 
     wp_register_script('Bootstrap-min', 
     get_parent_theme_file_uri('/assets/js/bootstrap.min.js'), 
-    null, '3.2.1', true);
+	null, '3.2.1', true);
 
     wp_register_script('Main', 
     get_parent_theme_file_uri('/assets/js/main.js'), 
-    null, '3.2.1', true);
+	null, '3.2.1', true);
 
-    //Enqueue scripts
-    wp_enqueue_script('jQuery');
-    wp_enqueue_script('jQuery-min');
+	
+	//Enqueue scripts
+	wp_enqueue_script('jQuery');
+	wp_enqueue_script('jQuery-min');
+	wp_enqueue_script('animatescroll');
+	wp_enqueue_script('grid-gallery.min');
     wp_enqueue_script('Bootstrap');
     wp_enqueue_script('Bootstrap-min');
     wp_enqueue_script('Main');
