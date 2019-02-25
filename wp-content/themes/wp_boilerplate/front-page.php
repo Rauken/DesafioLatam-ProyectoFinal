@@ -8,14 +8,14 @@
     <div class="container text-center mt-50">
 
         <!--Seccion 1-->
-        <div class="row" id="about">
-            <div class="text-center tindog text-custom seccion1 col-md-12">
+        <div class="row">
+            <div class="tindog text-shadow text-success seccion1 col-md-12">
                 <h1>Granja El Capricho</h1>
                 <p>El Capricho, ubicada en las cercanías de la ciudad de Nogales, es la única que posee un certificación como predio orgánico desde hace 5 años y pertenece a una cooperativa orgánica única en la provincia de Quillota</p>
             </div>
         </div>
         <!--Intermedio 1-->
-        <div class="row p-3">
+        <div class="row p-3" id="about">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="row">
@@ -35,9 +35,9 @@
 
         </div>
         <!--Seccion 1-->
-        <div class="row seccion1">
+        <div class="row seccion1" id="aprende">
             <div class="col-md-12">
-                <h1 class="tindog text-shadow text-success">¡Nuestra especialidad son los productos Organicos!</h1>
+                <h1 class="tindog text-shadow text-success">¡Conoce mas acerca de los productos Organicos!</h1>
             </div>
             <div class="col-md-1"></div>
             <?php
@@ -75,7 +75,7 @@
         <!--Seccion 3-->
         <div class="row" id="galeria">
             <div class="col-md-12 tindogit text-white">
-                <h1>Galeria</h1>
+                <h1 class="m-2">Galeria</h1>
             </div>
             <div id="gg-screen"></div>
             <div class="gg-box align-content-center">

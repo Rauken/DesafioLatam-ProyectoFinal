@@ -25,7 +25,13 @@
                 <a href="#home" class="nav-link active" onclick="$('#about').animatescroll();">Acerca de</a>
             </li>
             <li class="nav-item p-1">
+                <a href="#home" class="nav-link active" onclick="$('#aprende').animatescroll();">Aprende mas</a>
+            </li>
+            <li class="nav-item p-1">
                 <a href="#home" class="nav-link active" onclick="$('#galeria').animatescroll();">Galeria</a>
+            </li>
+            <li class="nav-item p-1">
+                <a href="#home" class="nav-link active" onclick="$('#footer').animatescroll();">Visitanos</a>
             </li>
         </ul>
     </nav>
