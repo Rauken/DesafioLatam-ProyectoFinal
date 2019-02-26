@@ -16,7 +16,6 @@ Proyecto final del curso de desarrollo FrontEnd en Valparaiso
 
 -Advanced Custom Fields
 Customize WordPress with powerful, professional and intuitive fields.
-
 Versión 5.7.12 | Por Elliot Condon
 
 -Advanced Custom Fields: Theme Code
@@ -25,14 +24,13 @@ Versión 1.4.0 | Por hookturn
 
 ## Plugins jQuery
 
--AnimateScroll is a jQuery plugin which enables you to scroll to any part of the page in style by just calling the animatescroll() function with the Id or Classname of the element where you want to scroll to
-
--
+-AnimateScroll 
+-GridGallery 
 -
 
 ## Api
 
--Google Maps
+-LeafLet
 
 ## Colores
 
