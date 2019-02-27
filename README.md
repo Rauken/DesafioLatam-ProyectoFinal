@@ -33,7 +33,7 @@ Versión 1.4.0 | Por hookturn
 
 ## Youtube
 
-[![IMAGE ALT TEXT HERE]](https://youtu.be/8PDcuOjJO-g)
+[![Link](https://youtu.be/8PDcuOjJO-g)](https://youtu.be/8PDcuOjJO-g)
 
 ## Colores
 
