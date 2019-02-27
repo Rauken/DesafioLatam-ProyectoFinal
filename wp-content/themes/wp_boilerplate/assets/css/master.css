@@ -90,11 +90,6 @@ p {
     display: block;
 }
 
-.image {
-    width: 100%;
-    height: auto;
-}
-
 .center {
     position: absolute;
     top: 50%;
@@ -180,7 +175,7 @@ h1 {
 
 /*---------------------Medias Query---------------*/
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 1000px) and (min-width: 400px) {
     body {
         background-size: cover;
     }
@@ -188,12 +183,12 @@ h1 {
         background-size: cover;
     }
     .image {
-        width: 300px;
+        width: 100%;
         height: auto;
     }
 }
 
-@media (max-width: 384px) {
+@media only screen and (max-width: 399px) {
     .image {
         width: 150px;
         height: auto;
